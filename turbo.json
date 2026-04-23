@@ -5,6 +5,10 @@
       "dependsOn": ["^build"],
       "outputs": [".next/**", "!.next/cache/**"]
     },
+    "build:worker": {
+      "dependsOn": ["build"],
+      "outputs": [".open-next/**"]
+    },
     "lint": {
       "dependsOn": ["^lint"]
     },
