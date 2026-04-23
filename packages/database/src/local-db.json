@@ -1,0 +1,159 @@
+{
+  "timestamp": "2026-04-06T16:08:46.807Z",
+  "tables": {
+    "services": [
+      {
+        "id": "6111d419-f078-4f2d-bb5d-c2b4ccd49cbf",
+        "slug": "developpement-logiciel",
+        "icon_name": "Monitor",
+        "system_load": 90,
+        "tags": [
+          "React",
+          "Next.js",
+          "Node.js"
+        ],
+        "title_fr": "Développement Logiciel",
+        "title_en": "Software Development",
+        "description_fr": "Architecture de plateformes SaaS robustes, tableaux de bord interactifs et applications mobiles natives (React, Flutter, Node.js).",
+        "description_en": "Architecture of robust SaaS platforms, interactive dashboards, and native mobile apps (React, Flutter, Node.js).",
+        "created_at": "2026-02-01T08:56:18.352974+00:00",
+        "sort_order": 1
+      },
+      {
+        "id": "808171d7-8bc3-4df2-8ada-59e625294064",
+        "slug": "devops-cicd",
+        "icon_name": "Zap",
+        "system_load": 88,
+        "tags": [
+          "Jenkins",
+          "Terraform",
+          "Docker"
+        ],
+        "title_fr": "DevOps & CI/CD",
+        "title_en": "DevOps & CI/CD",
+        "description_fr": "Automatisation des déploiements et optimisation de l'infrastructure pour une livraison continue.",
+        "description_en": "Deployment automation and infrastructure optimization for continuous delivery.",
+        "created_at": "2026-02-01T09:16:24.818313+00:00",
+        "sort_order": 2
+      },
+      {
+        "id": "ab0b1723-fc9c-4aa6-aadf-928e86f758e5",
+        "slug": "cloud-securite",
+        "icon_name": "Cloud",
+        "system_load": 92,
+        "tags": [
+          "AWS",
+          "Docker",
+          "Kubernetes"
+        ],
+        "title_fr": "Cloud & Sécurité",
+        "title_en": "Cloud & Security",
+        "description_fr": "Conception d'infrastructures évolutives sur AWS/Azure, optimisation des performances et audits de sécurité rigoureux.",
+        "description_en": "Design of scalable infrastructures on AWS/Azure, performance optimization, and rigorous security audits.",
+        "created_at": "2026-02-01T08:56:18.352974+00:00",
+        "sort_order": 3
+      },
+      {
+        "id": "e6749cf6-b089-4a27-bdf6-cd761b9cb5a5",
+        "slug": "ia-automatisation",
+        "icon_name": "Bot",
+        "system_load": 95,
+        "tags": [
+          "Python",
+          "TensorFlow",
+          "OpenAI"
+        ],
+        "title_fr": "IA & Automatisation",
+        "title_en": "AI & Automation",
+        "description_fr": "Intégration de LLMs pour chatbots intelligents et automatisation de flux répétitifs via Zapier, Make et Python.",
+        "description_en": "Integration of LLMs for intelligent chatbots and automation of repetitive workflows via Zapier, Make, and Python.",
+        "created_at": "2026-02-01T08:56:18.352974+00:00",
+        "sort_order": 4
+      }
+    ],
+    "projects": [
+      {
+        "id": "04afb61c-c463-4907-ab9a-e426cef3512e",
+        "slug": "made-for-architects-shop",
+        "service_id": "6111d419-f078-4f2d-bb5d-c2b4ccd49cbf",
+        "name_fr": "MadeForArchitects - Boutique E-commerce Premium",
+        "name_en": "MadeForArchitects - Premium E-commerce Store",
+        "description_fr": "Plateforme e-commerce haute performance dédiée au lifestyle des architectes, intégrant une gestion de stock en temps réel et un tunnel d'achat sécurisé.",
+        "description_en": "High-performance e-commerce platform dedicated to the lifestyle of architects, integrating real-time inventory management and a secure purchase funnel.",
+        "long_description_fr": "Développement d'une solution e-commerce complète ( Direct-to-Consumer ) centrée sur l'expérience utilisateur et la conversion. Le projet repose sur une architecture moderne permettant une scalabilité maximale.\nArchitecture Technique :\n\n- Gestion de l'État & Données : Utilisation de Supabase pour la base de données PostgreSQL (produits, avis clients, commandes) et le stockage des images produits (Buckets).\n\n- Middleware & Sécurité : Implémentation du Middleware Next.js pour sécuriser le tunnel de commande et gérer les sessions d'achat de manière fluide sans latence côté client.\n\n- Performance E-commerce : Exploitation du Server-Side Rendering (SSR) pour les pages produits afin d'optimiser le SEO, et de l'Incremental Static Regeneration (ISR) pour mettre à jour les stocks instantanément.\n\n- Interaction Client : Système de collecte et d'affichage d'avis vérifiés, synchronisé avec la base de données pour renforcer la preuve sociale.",
+        "long_description_en": "Development of a complete e-commerce solution (Direct-to-Consumer) focused on user experience and conversion. The project is based on a modern architecture enabling maximum scalability.\n\nTechnical Architecture:\n\n- State & Data Management: Use of Supabase for the PostgreSQL database (products, customer reviews, orders) and product image storage (Buckets).\n\n- Middleware & Security: Implementation of the Next.js middleware to secure the checkout process and manage purchase sessions smoothly without client-side latency.\n\n- E-commerce Performance: Leverage of Server-Side Rendering (SSR) for product pages to optimize SEO, and Incremental Static Regeneration (ISR) to update stock levels instantly.\n\n- Customer Interaction: System for collecting and displaying verified reviews, synchronized with the database to strengthen social proof.",
+        "image": "/db-assets/0.4744320332627805.png",
+        "images": [
+          "/db-assets/0.5749531943518678.png",
+          "/db-assets/0.41606754100817045.png"
+        ],
+        "video": null,
+        "demo_link": "https://www.madeforarchitects.com/",
+        "github_link": "",
+        "tags": [
+          "Next.js",
+          "Supabase (Auth, DB & Storage)",
+          "Next.js Middleware",
+          "Tailwind CSS",
+          "TypeScript"
+        ],
+        "created_at": "2026-03-07T15:10:32.081706+00:00",
+        "sort_order": 2
+      },
+      {
+        "id": "3cdf864a-71ed-4698-9e90-a4011958a66f",
+        "slug": "postcroquis-studio",
+        "service_id": "6111d419-f078-4f2d-bb5d-c2b4ccd49cbf",
+        "name_fr": "Postcroquis - Studio d'Architecture Transdisciplinaire",
+        "name_en": "Post-sketch - Transdisciplinary Architecture Studio",
+        "description_fr": "Une plateforme digitale immersive pour un studio d'architecture transdisciplinaire, conçue pour mettre en valeur des projets d'infrastructure nationale et de design durable.",
+        "description_en": "An immersive digital platform for a transdisciplinary architecture studio, designed to showcase national infrastructure and sustainable design projects.",
+        "long_description_fr": "Le projet Postcroquis est une vitrine technologique axée sur la philosophie \" Faire le pont entre héritage et innovation \". L'objectif était de créer un espace numérique reflétant l'engagement du studio envers l'excellence et la résonance émotionnelle à travers l'architecture.\nDétails techniques et fonctionnels :\n\n- Gestion de contenu visuel : Présentation optimisée de projets variés, allant des infrastructures d'envergure nationale aux espaces résidentiels intimes.\n\n- Design Transdisciplinaire : Interface conçue pour illustrer le dialogue entre le passé et le futur, propre à la méthodologie de travail des architectes et designers de l'équipe.\n\n- Performance & Durabilité : Développement d'une plateforme fluide mettant en avant des solutions durables et fonctionnelles.",
+        "long_description_en": "The Postcroquis project is a technological showcase focused on the philosophy of \"Bridging Heritage and Innovation.\" The goal was to create a digital space reflecting the studio's commitment to excellence and emotional resonance through architecture.\n\nTechnical and Functional Details:\n\n- Visual Content Management: Optimized presentation of diverse projects, ranging from large-scale national infrastructure to intimate residential spaces.\n\n- Transdisciplinary Design: An interface designed to illustrate the dialogue between past and future, reflecting the working methodology of the team's architects and designers.\n\n- Performance & Sustainability: Development of a seamless platform highlighting sustainable and functional solutions.",
+        "image": "/db-assets/0.11511384700610905.png",
+        "images": [
+          "/db-assets/0.664403865714686.png",
+          "/db-assets/0.816077355408112.png",
+          "/db-assets/0.240364195594007.png"
+        ],
+        "video": null,
+        "demo_link": "https://postcroquis.pages.dev/",
+        "github_link": "",
+        "tags": [
+          "Next.js Middleware"
+        ],
+        "created_at": "2026-03-07T14:59:14.292604+00:00",
+        "sort_order": 1
+      },
+      {
+        "id": "b2577ab4-aab4-4315-98bd-a6ce81792317",
+        "slug": "amopro-construction-amo",
+        "service_id": "6111d419-f078-4f2d-bb5d-c2b4ccd49cbf",
+        "name_fr": "AMOPRO - Expertise en Gestion de Construction & AMO",
+        "name_en": "AMOPRO - Expertise in Construction Management & AMO",
+        "description_fr": "AMOPRO est un cabinet d'ingénierie et de maîtrise d'ouvrage spécialisé dans la protection et la défense des intérêts de ses clients, apportant expertise technique et solutions durables depuis 2012.",
+        "description_en": "AMOPRO is an engineering and project management firm specializing in the protection and defense of its clients' interests, providing technical expertise and sustainable solutions since 2012.",
+        "long_description_fr": "Cette plateforme web moderne est bâtie sur Next.js 15 et React 19 pour offrir une expérience utilisateur fluide et des performances optimales. L'architecture s'appuie sur TypeScript pour la robustesse du code et utilise Tailwind CSS (v4) avec des composants Shadcn/UI pour un design premium et réactif.\n\nLes fonctionnalités clés incluent une gestion multilingue complète (next-intl), un panneau d'administration sécurisé avec authentification (JWT/jose), et une intégration de base de données Cloudflare D1 (SQLite). Le déploiement est entièrement automatisé via Cloudflare Pages, tirant parti d'une architecture serverless pour une scalabilité et une rapidité maximales.",
+        "long_description_en": "This modern web platform is built on Next.js 15 and React 19 to deliver a seamless user experience and optimal performance. The architecture leverages TypeScript for code robustness and uses Tailwind CSS (v4) with Shadcn/UI components for a premium, responsive design.\n\nKey features include full multilingual support (next-intl), a secure admin panel with authentication (JWT/jose), and Cloudflare D1 database integration (SQLite). Deployment is fully automated via Cloudflare Pages, taking advantage of a serverless architecture for maximum scalability and speed.",
+        "image": "/db-assets/0.1956951771980795.png",
+        "images": [
+          "/db-assets/0.2621575911766527.png",
+          "/db-assets/0.09158081054878342.png",
+          "/db-assets/0.21097283178721282.png"
+        ],
+        "video": null,
+        "demo_link": "https://www.amopro.com/about.html",
+        "github_link": "",
+        "tags": [
+          "Next.js",
+          "React",
+          "TypeScript",
+          "Tailwind CSS ",
+          "i18n"
+        ],
+        "created_at": "2026-03-07T14:13:49.01325+00:00",
+        "sort_order": 0
+      }
+    ]
+  }
+}
