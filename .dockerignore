@@ -1,8 +1,0 @@
-**/node_modules
-**/.next
-**/.git
-**/.netlify
-**/.env*.local
-**/.env
-npm-debug.log
-**/dist

@@ -1,23 +1,8 @@
 import type { Metadata } from "next";
-import { Montserrat, JetBrains_Mono } from "next/font/google";
-import "./globals.css";
-import { LanguageProvider } from "@/context/LanguageContext";
-import CustomCursor from "@/components/ui/CustomCursor";
-import Preloader from "@/components/ui/Preloader";
-
-const montserrat = Montserrat({
-  variable: "--font-montserrat",
-  subsets: ["latin"],
-});
-
-const jetbrainsMono = JetBrains_Mono({
-  variable: "--font-jetbrains",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
-  title: "Nexura | Logic & Growth",
-  description: "Advanced Software Engineering & Digital Solutions. We bridge the gap between complex code and scalable solutions.",
+  title: "Nexura Web | Premium Experience",
+  description: "Next-generation web application powered by Nexura",
 };
 
 export default function RootLayout({
@@ -27,14 +12,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${montserrat.variable} ${jetbrainsMono.variable} antialiased bg-midnight-navy text-pure-white`}
-      >
-        <Preloader />
-        <CustomCursor />
-        <LanguageProvider>
-          {children}
-        </LanguageProvider>
+      <body style={{ margin: 0, padding: 0, background: '#000' }}>
+        {children}
       </body>
     </html>
   );

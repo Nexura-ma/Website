@@ -1,8 +1,0 @@
-[build]
-  command = "npm run build"
-  publish = ".next"
-  # This command tells Netlify to only build if files in this app or shared packages changed
-  ignore = "git diff --quiet HEAD^ HEAD . ../../packages/"
-
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
