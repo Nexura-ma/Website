@@ -1,6 +1,7 @@
 {
   "name": "nexura-monorepo",
   "private": true,
+  "type": "module",
   "version": "1.0.0",
   "description": "Nexura Monorepo with Turborepo and Next.js",
   "workspaces": [
